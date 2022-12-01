@@ -1,0 +1,54 @@
+.grid {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    border: 5px solid black;
+    margin-left:  auto;
+    margin-right:  auto;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    border: 5px groove lightgray;
+}
+
+.bomb {
+    background-color: orange;
+}
+
+.checked {
+    background-color: red;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+}
+
+.win {
+    display: none;
+    margin-left: 360px;
+    font-size: 40px;
+
+}
+
+.flags {
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.numberFlags {
+    display: flex;
+    font-size: 40px;
+    width: 40px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    background: black;
+    color: red;
+    margin-left: 390px;
+    border: 4px solid black;
+}
